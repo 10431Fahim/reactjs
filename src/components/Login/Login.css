@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.main-login{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF;
+}
+
+.login-contain{
+    position: absolute;
+    width: 1219px;
+    height: 1081px;
+    left: 0px;
+    top: 1px;
+    /* background: linear-gradient(to left,rgb(236, 221, 221) 50%, #4dd6b6 50%); */
+    background: radial-gradient(99.87% 413.14% at 0% 4.98%, #443453 0%, #232323 28.23%, #252425 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+   
+    /*height: 75vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(236,236,236,0.7),rgba(236,236,236,0.3));
+    border-radius: 1rem;
+    margin: 2rem auto;
+    box-shadow: 0.5rem 2rem -0.5rem white;*/
+}
+
+.Login1{
+    position: absolute;
+    width: 715px;
+    height: 979px;
+    left: 1012px;
+    top: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+.p1{
+    position: absolute;
+    left: 20.68%;
+    right: 13.7%;
+    top: 32.59%;
+    bottom: 63.52%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 42px;
+    /* identical to box height, or 140% */
+    color: #473558;
+}
+#input{
+    position: absolute;
+    width: 380px;
+    height: 53px;
+    left: calc(50% - 1200px/2 + 445px);
+    top: calc(50% - 53px/2 - 15.5px);
+
+    background: #FFFFFF;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#pass{
+    position: absolute;
+    margin-top: 75px;
+    width: 380px;
+    height: 53px;
+    left: calc(50% - 1200px/2 + 445px);
+    top: calc(50% - 53px/2 - 15.5px);
+
+    background: #FFFFFF;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Login-btn{
+    position: absolute;
+    width: 380px;
+    height: 53px;
+    left: 200px;
+    top: 620px;
+    color: #FFFFFF;
+    background: #3E489A;
+    border-radius: 10px;
+}
+
+
+.Logo{
+    position: absolute;
+    width: 647px;
+    height: 980px;
+    left: 187px;
+    top: 79px;
+    right: 900px;
+    bottom: 22px;
+    background: none;
+    background-image: url(./Group.png);
+}
+
+.icon{
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    left: 1329px;
+    top: 194px;
+    background-image: url(./blue-logo.png);
+}
+
+.frg-pass{
+    position: absolute;
+    left: 60.35%;
+    right: 15.00%;
+    top: 60.00%;
+    bottom: 45.19%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FF0000;
+}
+
+.p2{
+    color: #232323;
+    position: absolute;
+    width: 380px;
+    height: 53px;
+    left: 200px;
+    top: 690px;
+}
+
+.p2::before{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: rgb(14, 15, 15);
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.p2::after{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: rgb(14, 15, 15);
+    position: absolute;
+    bottom: 40px;
+    left: 210px;
+}
+
+.icon2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 1323px;
+    top: 800px;
+    border: none;
+    display: flex;
+    outline: none;
+    background-color: #f2f2f7;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./im.png);   
+}
+
+#icon3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1430px;
+    top: 800px;
+    border: none;
+    display: flex;
+    outline: none;
+    background-color: #f2f2f7;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./google.png);
+}
+
+.create{
+    position: absolute;
+    left: 60.62%;
+    right: 19.53%;
+    top: 83.06%;
+    bottom: 14.81%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #1f1c1c;
+}
+
+.sin-up{
+    position: absolute;
+    left: 75.62%;
+    right: 1.53%;
+    top: 83.06%;
+    bottom: 14.81%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #00AEEF;
+
+}
